@@ -12,7 +12,7 @@ const Skills = () => {
 
  
   return (
-      <section id="skills" className="text-center py-10">
+      <section id="skills" className="text-center py-10 my-12">
       <motion.h2
         className="text-4xl font-bold mb-6"
         initial={{ opacity: 0, y: -20 }}
