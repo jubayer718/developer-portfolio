@@ -2,6 +2,7 @@ import About from "../../Components/AboutMe/About";
 import Hero from "../../Components/Hero/Hero";
 import MyProject from "../../Components/Project/MyProject";
 import Skills from "../../Components/Skills/Skills";
+import Contact from "../ContactMe/Contact";
 
 
 const HomePage = () => {
@@ -19,6 +20,9 @@ const HomePage = () => {
       </section>
       <section>
         <MyProject></MyProject>
+      </section>
+      <section>
+    <Contact></Contact>
       </section>
     </div>
   );

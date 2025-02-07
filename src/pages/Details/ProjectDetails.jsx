@@ -13,7 +13,6 @@ const ProjectDetails = () => {
        />
        
        <h2 className="text-4xl font-semibold">{project?.title}</h2>
-       <p className="text-lg text-gray-500 my-4">{project?.description}</p>
  
        {/* Main Technology Stack */}
        <div className="my-6">
@@ -48,7 +47,8 @@ const ProjectDetails = () => {
        {/* Detailed Project Description */}
        <div className="my-6">
          <h3 className="text-2xl font-semibold mb-2">Detailed Description</h3>
-         <p>{project?.detailedDescription}</p>
+              <p className="text-lg text-gray-500 my-4">{project?.description}</p>
+
        </div>
  
        {/* Challenges Faced */}

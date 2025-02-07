@@ -5,6 +5,7 @@ import About from "../Components/AboutMe/About";
 import Skills from "../Components/Skills/Skills";
 import MyProject from "../Components/Project/MyProject";
 import ProjectDetails from "../pages/Details/ProjectDetails";
+import Contact from "../pages/ContactMe/Contact";
 
  const routes = createBrowserRouter([
    {
@@ -23,6 +24,10 @@ import ProjectDetails from "../pages/Details/ProjectDetails";
        }, {
          path: '/project',
          element:<MyProject></MyProject>
+       }, {
+       }, {
+         path: '/contact',
+         element:<Contact></Contact>
        }, {
          path: '/project/details/:id',
          element: <ProjectDetails></ProjectDetails>,
