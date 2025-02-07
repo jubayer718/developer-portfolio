@@ -6,11 +6,13 @@ import Skills from "../Components/Skills/Skills";
 import MyProject from "../Components/Project/MyProject";
 import ProjectDetails from "../pages/Details/ProjectDetails";
 import Contact from "../pages/ContactMe/Contact";
+import ErrorPage from "../pages/Error/ErrorPage";
 
  const routes = createBrowserRouter([
    {
      path: '/',
      element: <MainLayout></MainLayout>,
+     errorElement:<ErrorPage></ErrorPage>,
      children: [
        {
          path: '/',
