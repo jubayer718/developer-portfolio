@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const Contact = () => {
   return (
-   <div className=" pb-20 ">
+   <div className=" pb-20  ">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 1, y: -100 }}
