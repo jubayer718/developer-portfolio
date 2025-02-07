@@ -21,7 +21,7 @@ const HomePage = () => {
       <section>
         <MyProject></MyProject>
       </section>
-      <section>
+      <section className="w-5/6 mx-auto">
     <Contact></Contact>
       </section>
     </div>

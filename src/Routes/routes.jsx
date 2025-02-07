@@ -31,7 +31,7 @@ import Contact from "../pages/ContactMe/Contact";
        }, {
          path: '/project/details/:id',
          element: <ProjectDetails></ProjectDetails>,
-         loader:({params})=>fetch(`http://localhost:3000/projects/${params.id}`)
+         loader:({params})=>fetch(`https://developer-portfolio-server-peach.vercel.app/projects/${params.id}`)
        }
      ]
   }

@@ -4,7 +4,7 @@ const ProjectDetails = () => {
   const project = useLoaderData();
 
   return (
-     <div className="container mx-auto p-8">
+     <div className="container mx-auto p-8 mt-16">
        {/* Project Image */}
        <img 
          src={project?.image} 

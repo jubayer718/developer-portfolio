@@ -6,7 +6,7 @@ const useProject = () => {
   const { data: projects = [] } = useQuery({
     queryKey: ['project'],
     queryFn:() => 
-      fetch('http://localhost:3000/projects')
+      fetch('https://developer-portfolio-server-peach.vercel.app/projects')
         .then(res => res.json())
         .then(data => {
         return data
@@ -29,7 +29,7 @@ export default useProject;
 //   const {  data:cart=[] } = useQuery({
 //     queryKey: ['cart'],
 //     queryFn: () =>
-//       fetch('http://localhost:3000/projects')
+//       fetch('https://developer-portfolio-server-peach.vercel.app/projects')
 //       .then((res) =>
 //         res.json(),
 //       ).then(data => {

@@ -8,12 +8,12 @@ const Navbar = () => {
     <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/'>Home</NavLink></li>
     <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/about'>About</NavLink></li>
     <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/skills'>Skills</NavLink></li>
-    <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/technologies'>Technologies</NavLink></li>
+   
     <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/project'>Project</NavLink></li>
     <li><NavLink className="hover:text-cyan-500 font-semibold hover:bg-black px-4 py-2 rounded-lg" to='/contact'>Contact</NavLink></li>
   </>
   return (
-    <div className=" fixed w-full top-0  z-40">
+    <div className=" fixed w-full top-0 mx-auto z-40 ">
       <div className="navbar bg-stone-800 shadow-sm">
         <div className="navbar-start flex-1">
           <div className="dropdown">

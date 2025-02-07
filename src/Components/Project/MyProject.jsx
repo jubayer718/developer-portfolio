@@ -6,7 +6,7 @@ const MyProject = () => {
   const [projects] = useProject();
   
   return (
-    <div className='pb-4'>
+    <div className='pb-4 '>
       {/* Section Title */}
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -18,10 +18,10 @@ const MyProject = () => {
       </motion.h2>
 
       {/* Projects List */}
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-7 gap-6">
         {
           projects.map((project) =>
-            <div key={project._id} className='w-full lg:w-1/3'>
+            <div key={project._id} className='w-full '>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
