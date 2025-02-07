@@ -4,6 +4,7 @@ import HomePage from "../pages/Home/HomePage";
 import About from "../Components/AboutMe/About";
 import Skills from "../Components/Skills/Skills";
 import MyProject from "../Components/Project/MyProject";
+import ProjectDetails from "../pages/Details/ProjectDetails";
 
  const routes = createBrowserRouter([
    {
@@ -22,6 +23,10 @@ import MyProject from "../Components/Project/MyProject";
        }, {
          path: '/project',
          element:<MyProject></MyProject>
+       }, {
+         path: '/project/details/:id',
+         element: <ProjectDetails></ProjectDetails>,
+         loader:({params})=>fetch(`http://localhost:3000/projects/${params.id}`)
        }
      ]
   }

@@ -39,7 +39,7 @@ const MyProject = () => {
                   {/* Project Title */}
                   <h3 className='mb-2 font-semibold text-stone-400 text-2xl'>{project.title}</h3>
                   {/* Project Description */}
-                  <p className='mb-4 text-stone-400'>{project.description}</p>
+                  <p className='mb-4 text-stone-400'>{project.description.slice(0,80)}...</p>
 
                   {/* Project Technologies */}
                   <div className='mb-4'>

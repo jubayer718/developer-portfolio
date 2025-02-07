@@ -1,5 +1,6 @@
 import About from "../../Components/AboutMe/About";
 import Hero from "../../Components/Hero/Hero";
+import MyProject from "../../Components/Project/MyProject";
 import Skills from "../../Components/Skills/Skills";
 
 
@@ -15,6 +16,9 @@ const HomePage = () => {
       </section>
       <section>
         <Skills></Skills>
+      </section>
+      <section>
+        <MyProject></MyProject>
       </section>
     </div>
   );
