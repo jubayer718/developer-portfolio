@@ -21,7 +21,7 @@ const HomePage = () => {
       <section>
         <MyProject></MyProject>
       </section>
-      <section className=" w-full lg:w-5/6 mx-auto">
+      <section className="w-3/6 lg:w-5/6 mx-auto">
     <Contact></Contact>
       </section>
     </div>

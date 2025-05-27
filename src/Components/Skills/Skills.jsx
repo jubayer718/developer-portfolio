@@ -36,19 +36,18 @@ const Skills = () => {
           { name: "CSS3", color: "1572B6", logo: "css3" },
           { name: "JavaScript", color: "F7DF1E", logo: "javascript" },
           { name: "React", color: "61DAFB", logo: "react" },
-          { name: "Vue.js", color: "4FC08D", logo: "vue.js" }
+          { name: "Next", color: "4FC08D", logo: "Next.js" }
         ]} />
 
         {/* Backend */}
         <SkillsCategory title="⚙️ Backend Development" skills={[
           { name: "Node.js", color: "339933", logo: "node.js" },
-          { name: "Express.js", color: "000000", logo: "express" },
-          { name: "Django", color: "092E20", logo: "django" }
+          { name: "Express.js", color: "000000", logo: "express" }
         ]} />
 
         {/* Databases */}
         <SkillsCategory title="🗄️ Databases" skills={[
-          { name: "MySQL", color: "4479A1", logo: "mysql" },
+          { name: "SQL", color: "4479A1", logo: "mysql" },
           { name: "MongoDB", color: "47A248", logo: "mongodb" },
           { name: "PostgreSQL", color: "336791", logo: "postgresql" }
         ]} />
@@ -56,9 +55,6 @@ const Skills = () => {
         {/* DevOps & Tools */}
         <SkillsCategory title="🔧 DevOps & Tools" skills={[
           { name: "Git", color: "F05032", logo: "git" },
-          { name: "Docker", color: "2496ED", logo: "docker" },
-          { name: "AWS", color: "232F3E", logo: "amazon-aws" },
-          { name: "CI/CD", color: "blue", logo: "circleci" }
         ]} />
       </motion.div>
     </section>
