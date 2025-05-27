@@ -42,11 +42,11 @@ const MyProject = () => {
                   <p className='mb-4 text-stone-400'>{project.description.slice(0,80)}...</p>
 
                   {/* Project Technologies */}
-                  <div className='mb-4'>
+                  <div className='mb-4 flex flex-wrap '>
                     {project.technologies.map((tech, idx) =>
                       <span 
                         key={idx} 
-                        className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>
+                        className='mr-2 mt-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>
                         {tech}
                       </span>
                     )}

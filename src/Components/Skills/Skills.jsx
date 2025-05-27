@@ -47,7 +47,7 @@ const Skills = () => {
 
         {/* Databases */}
         <SkillsCategory title="🗄️ Databases" skills={[
-          { name: "SQL", color: "4479A1", logo: "mysql" },
+          { name: "SQL", color: "4479A1", logo: "SQL" },
           { name: "MongoDB", color: "47A248", logo: "mongodb" },
           { name: "PostgreSQL", color: "336791", logo: "postgresql" }
         ]} />
